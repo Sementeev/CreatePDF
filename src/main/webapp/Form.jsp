@@ -11,7 +11,7 @@
 <body>
 
 <h1 class="headline">Create PDF for course work</h1>
-<p>Создается PDF-файл с текстом, изображением и таблицей. Данные в таблицу вносятся с формы ниже по ячейкам. Форматирование можно задать с помощью CSS.</p>
+<p>Создается PDF-файл с нашим именным текстом, изображением и таблицей. Данные в таблицу вносятся с формы ниже по ячейкам. Форматирование можно задать с помощью CSS.</p>
 
     <form action="${pageContext.request.contextPath}/JavaPDF" method="post">
         <label for="Number">Number:</label>
